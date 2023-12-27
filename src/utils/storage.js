@@ -1,6 +1,6 @@
 import storageMode from '@/storage'
 const getToken = () => {
-  const storage = storageMode['sessionStorage'];
+  const storage = storageMode['sessionStorage']
   return storage.$get({
     key: 'TOKEN'
   })
