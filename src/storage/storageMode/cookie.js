@@ -34,9 +34,5 @@ const cookie = new (class {
       )
     }
   }
-  $timeDetermine(init) {
-    let newDate = new Date().getTime()
-    return init[1] - newDate > 0
-  }
 })()
 export default cookie
