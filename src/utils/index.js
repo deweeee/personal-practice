@@ -39,7 +39,17 @@ const getTimeByMonth = (time, monthDiff = 0, t) => {
   return t ? `${Year}-${Month}` : `${Year}-${Month}-${Day}`
 }
 
+//浮点数保留小数位
+const getFloat = (num, n = 0) => {
+  if (!num && num !== 0) return ''
+  if (n <= 0) {
+    return Math.round(num)
+  }
+  return Math.round(num * Math.pow(10, n)) / Math.pow(10, n)
+}
+
 export default {
   getTimeByM,
-  getTimeByMonth
+  getTimeByMonth,
+  getFloat
 }
