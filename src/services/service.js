@@ -11,7 +11,7 @@ import {
   TOKEN_ERROR,
   FORCE_OFFLINE,
   OTHER_PLACE_LOGIN_FORCE_OFFLINE
-} from '../conf/response.code.conf'
+} from '../config/response.code.conf'
 
 let refreshToken = false
 let promiseArray = []

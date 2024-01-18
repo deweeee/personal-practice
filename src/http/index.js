@@ -1,4 +1,4 @@
-import { LocalConf, SrvConf } from 'httpConfig'
+import { LocalConf, SrvConf } from '../config/http.conf'
 import Http from './http'
 let httpUntil = new Http({ type: 'fetch' })
 httpUntil

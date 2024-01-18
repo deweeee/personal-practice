@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'loginU'
+  name: 'layoutC'
 }
 </script>
 

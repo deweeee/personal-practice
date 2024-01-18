@@ -1,7 +1,7 @@
 import { Message, Loading } from 'element-ui'
 import storageM from '../storage'
 import service from './service'
-import { TOKEN_OVERTIME, SUCCESS } from '../conf/response.code.conf'
+import { TOKEN_OVERTIME, SUCCESS } from '../config/response.code.conf'
 import Vue from 'vue'
 
 const ServiceConf = {}
