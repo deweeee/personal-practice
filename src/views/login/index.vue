@@ -1,13 +1,16 @@
 <template>
-  <div>
+  <div class="loginUser">
     <div></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'loginU'
+  name: 'loginUser'
 }
 </script>
 
-<style></style>
+<style lang="scss">
+.loginUser {
+}
+</style>
